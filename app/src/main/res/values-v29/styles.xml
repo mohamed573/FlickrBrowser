@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorBackgroundFloating">@color/primary</item>
+        // this will support API29 to be having the card view color
+        // @ mean that we're referring to a recourse and @color means the resource is found in a color
+    </style>
+</resources>
