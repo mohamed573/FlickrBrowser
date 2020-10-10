@@ -73,10 +73,10 @@ class MainActivity : BaseActivity(), GetRawData.OnDownloadComplete,
 
         Log.d(TAG , ".createUri starts")
 
-        // we starting off parsing the base url on line 45 , that's create a uri object , which I've called
+        // we starting off parsing the base url , that's create a uri object , which I've called
         // we need to build a params on top of that
 
-        // builder using to build Upon command on line 48
+        // builder using to build Upon command
         return Uri.parse(baseURL).
         buildUpon().
         appendQueryParameter("tags", searchCriteria).
